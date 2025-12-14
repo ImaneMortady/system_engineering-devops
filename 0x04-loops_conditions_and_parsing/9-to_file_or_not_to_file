@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Checks if specific files exist, are regular files, and are empty
+# Checks specific files
 for file in school best_school school_is_amazing
 do
     if [ -e "$file" ]
@@ -7,7 +7,7 @@ do
         echo "$file file exists"
         if [ -f "$file" ]
         then
-            echo "$file file is a regular file"
+            echo "$file is a regular file"
         fi
         if [ -s "$file" ]
         then
