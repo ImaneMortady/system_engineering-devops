@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Loop 1-20 with special cases for superstitious numbers
+# Loop 1-20 with special cases
 i=1
 while (( i <= 20 ))
 do
