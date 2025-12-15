@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Loop that catches the SIGTERM signal
-trap "echo "I am invincible!!!"" SIGTERM
+# Catches SIGTERM signal
+trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
 do
